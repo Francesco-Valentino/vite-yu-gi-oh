@@ -13,7 +13,7 @@ export default {
 <style lang="scss">
     div.cardElement{
         margin: .5rem 1rem;
-        width: calc(100% / 5);
+        width: calc((100% / 5) - 2rem);
         text-align: center;
         height: 300px;
         background-color: chartreuse;
