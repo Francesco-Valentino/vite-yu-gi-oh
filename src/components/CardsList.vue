@@ -8,13 +8,19 @@
 
 <script>
 import SingleCard from './SingleCard.vue';
+import axios from 'axios';
 
 export default {
 
     name: 'CardsList',
     components: {
         SingleCard,
-    }
+    },
+
+    
+    created() {
+        
+    },
 }
 </script>
 
