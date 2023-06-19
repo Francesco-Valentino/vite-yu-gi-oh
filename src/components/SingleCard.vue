@@ -6,9 +6,9 @@
             {{ cardName }}
         </h4>
 
-        <h5>
+        <p>
             {{ cardArchetype }}
-        </h5>
+        </p>
     </div>
 </template>
 
@@ -32,9 +32,18 @@ export default {
         height: 300px;
         display: flex;
         flex-direction: column;
+        background-color: #D48F38;
 
         img{
             width: 100%;
+        }
+
+        h4{
+            color: white;
+        }
+
+        p{
+            color: rgb(79, 79, 79);
         }
     }
 </style>
