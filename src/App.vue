@@ -13,7 +13,8 @@ export default{
 </script>
 
 <template>
-
+  <AppHeader />
+  <AppMain />
 </template>
 
 <style scoped>
