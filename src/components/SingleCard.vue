@@ -12,7 +12,7 @@ export default {
 
 <style lang="scss">
     div.cardElement{
-        margin: 0 1rem;
+        margin: .5rem 1rem;
         width: calc(100% / 5);
         text-align: center;
         height: 300px;
