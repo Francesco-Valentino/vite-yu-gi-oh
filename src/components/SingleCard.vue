@@ -1,12 +1,26 @@
 <template>
     <div class="cardElement">
-        <img src="" alt="card proxy">
+        <img :src="cardImage" :alt=" cardName + ' card proxy' ">
+        
+        <h4>
+            {{ cardName }}
+        </h4>
+
+        <h5>
+            {{ cardArchetype }}
+        </h5>
     </div>
 </template>
 
 <script>
 export default {
     name: "SingleCard",
+
+    props: {
+        cardName: String,
+        cardArchetype: String,
+        cardImage: String,
+    },
 }
 </script>
 
@@ -16,6 +30,11 @@ export default {
         width: calc((100% / 5) - 2rem);
         text-align: center;
         height: 300px;
-        background-color: chartreuse;
+        display: flex;
+        flex-direction: column;
+
+        img{
+            width: 100%;
+        }
     }
 </style>
