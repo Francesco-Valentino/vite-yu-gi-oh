@@ -17,5 +17,5 @@ export default{
 </template>
 
 <style scoped>
-
+  @import url('styles/general.scss')
 </style>

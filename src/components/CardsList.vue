@@ -1,6 +1,12 @@
 <template>
     <div>
-        
+        <h1>
+            CARDS LIST
+        </h1>
+
+        <div>
+            <SingleCard />
+        </div>
     </div>
 </template>
 

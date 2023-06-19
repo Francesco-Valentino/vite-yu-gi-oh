@@ -1,6 +1,8 @@
 <template>
     <div>
-        
+        <h1>
+            SINGLE CARD
+        </h1>
     </div>
 </template>
 
